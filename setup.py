@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="timespy",
     version="0.1.0",
-    description="A lightweight function profiler for execution time measurement.",
+    description="Timespy is a lightweight Python decorator that measures the execution time of functions, providing an easy way to analyze and optimize performance.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Croketillo",
@@ -28,7 +28,6 @@ setup(
     "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Operating System :: OS Independent",
-    "Natural Language :: English",
     ],
     python_requires=">=3.6",
 )

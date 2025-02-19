@@ -1,5 +1,5 @@
 # TimeSpy ⏱
-A lightweight function profiler to measure execution time.
+Timespy is a lightweight Python decorator that measures the execution time of functions, providing an easy way to analyze and optimize performance.
 
 ## Installation
 ```sh
