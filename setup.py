@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="timespy",
-    version="0.1.0",
+    version="0.1.1",
     description="Timespy is a lightweight Python decorator that measures the execution time of functions, providing an easy way to analyze and optimize performance.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
