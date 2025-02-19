@@ -1,8 +1,8 @@
-from timespy import profile
+from timespy import timer
 import time
 
 def test_profile():
-    @profile
+    @timer
     def fast_function():
         pass
 
@@ -10,7 +10,7 @@ def test_profile():
     assert fast_function.exec_time >= 0
 
 def test_slow_function():
-    @profile
+    @timer
     def slow_function():
         time.sleep(1)
 

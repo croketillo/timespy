@@ -1,1 +1,1 @@
-from .timespy import profile  
+from .timespy import timer

@@ -1,7 +1,7 @@
 import time
 import functools
 
-def profile(func):
+def timer(func):
     """Profiler decorator to measure execution time of functions."""
     @functools.wraps(func)
     def wrapper(*args, **kwargs):

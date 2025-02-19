@@ -9,9 +9,9 @@ pip install timespy
 ## Usage
 
 ```sh
-from timespy import profile
+from timespy import timer
 
-@profile
+@timer
 def my_function():
     import time
     time.sleep(1)

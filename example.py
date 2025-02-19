@@ -1,7 +1,7 @@
-from timespy import profile
+from timespy import timer
 import time
 # Usage example: exec_time is now accessible as a function attribute
-@profile
+@timer
 def slow_function():
     time.sleep(2)
 
